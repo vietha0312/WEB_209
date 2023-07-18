@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Các class Tailwind CSS */
+.h-56 {
+    /* Chiều cao của hình ảnh */
+    height: 14rem;
+  }
+  
+  .w-full {
+    /* Chiều rộng 100% */
+    width: 100%;
+  }
+  
+  .object-cover {
+    /* Hiển thị hình ảnh trong phạm vi bao phủ với giữ nguyên tỷ lệ khung hình */
+    object-fit: cover;
+  }
+  
+  .overflow-hidden {
+    /* Ẩn bớt nội dung tràn ra khỏi phạm vi của phần tử */
+    overflow: hidden;
+  }
+  
+  .rounded-lg {
+    /* Góc bo tròn */
+    border-radius: 0.5rem;
+  }
+  
+  .shadow {
+    /* Hiển thị bóng đổ */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .transition {
+    /* Hiệu ứng chuyển đổi */
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+  .hover\:shadow-lg:hover {
+    /* Hiển thị bóng đổ lớn hơn khi hover */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .bg-white {
+    /* Màu nền trắng */
+    background-color: #ffffff;
+  }
+  
+  .p-4 {
+    /* Padding 4 điểm ảnh */
+    padding: 1rem;
+  }
+  
+  .p-6 {
+    /* Padding 6 điểm ảnh */
+    padding: 1.5rem;
+  }
+  
+  .text-xs {
+    /* Cỡ chữ nhỏ */
+    font-size: 0.75rem;
+  }
+  
+  .text-gray-500 {
+    /* Màu chữ xám */
+    color: #6b7280;
+  }
+  
+  .text-lg {
+    /* Cỡ chữ lớn */
+    font-size: 1.125rem;
+  }
+  
+  .text-gray-900 {
+    /* Màu chữ đen */
+    color: #111827;
+  }
+  
+  .mt-05 {
+    
+    margin-top: 0.125rem;
+  }
+  
+  .line-clamp-3 {
+    /* Giới hạn số dòng văn bản */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .relaxed {
+    /* Khoảng cách dòng lỏng lẻo */
+    line-height: 1.625;
+  }
+  
